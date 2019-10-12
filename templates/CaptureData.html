@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Enter Details</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+		}
+		#boarder{
+        height: 3px;
+        background-color: #2F4F4F;
+      }
+      .astric{
+      	color: red;
+      }
+      #table{
+      	justify-content: center;
+      }
+      td{
+      	padding: 6px;
+      }
+	</style>
+</head>
+<body bgcolor = #D5DBDB>
+	<h1>Capture Test Results</h1>
+	<div id="boarder"></div>
+	<div style="height: 50px">
+	</div>
+	<div id="table" style="width:800px; margin:0 auto;">
+		<form name="form1" action="" method="POST">
+			<table>
+				<tr>
+					<td>Project Name <span class="astric">*</span> :</td>
+					<td><input type="text" placeholder="Enter Project Name">
+					</td>
+				</tr>
+				<tr>
+					<td>Module <span class="astric">*</span> :</td>
+					<td><input type="text" placeholder="Enter Module Name">
+					</td>
+				</tr>
+				<tr>
+					<td>Sub-Module <span class="astric">*</span> :</td>
+					<td><input type="text" placeholder="Enter Sub-Module Name"></td>
+				</tr>
+				<tr>
+					<td>No.of TestCases <span class="astric">*</span> :</td>
+					<td><input type="text" value="0"></td>
+				</tr>
+				<tr>
+					<td>Passed <span class="astric">*</span> :</td>
+					<td><input type="text" value="0"></td>
+				</tr>
+				<tr>
+					<td>Failed <span class="astric">*</span> :</td>
+					<td><input type="text" value="0"></td>
+				</tr>
+				<tr>
+					<td>Blocked <span class="astric">*</span> :</td>
+					<td><input type="text" value="0"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" name="submit" value="Submit"></td>
+				</tr>
+			</table>
+
+		</form>
+	</div>
+
+	<h6><span class="astric">*</span> All fileds are mandatory.</h6>
+	<a href="HomePage.html">back</a>
+</body>
+</html>
